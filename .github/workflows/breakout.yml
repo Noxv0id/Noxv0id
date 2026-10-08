@@ -20,7 +20,7 @@ jobs:
       - name: Generate Breakout SVG
         uses: cyprieng/github-breakout@v1
         with:
-          github_username: Noxv0id
+          github_username: ${{ github.repository_owner }}
           paddle_color: "#FFFFFF"
           ball_color: "#FFFFFF"
           bricks_colors: "#303030,#505050,#707070,#A0A0A0,#FFFFFF"
@@ -40,23 +40,35 @@ jobs:
           echo "=== All SVG files ==="
           find . -type f -name "*.svg" -print
 
-      - name: Move generated SVGs
+      - name: Move generated SVG
         run: |
           mkdir -p /tmp/breakout-images
-          mv output/light.svg /tmp/breakout-images/breakout-light.svg
-          mv output/dark.svg /tmp/breakout-images/breakout-dark.svg
+
+          if [ -f output/custom.svg ]; then
+            echo "Found output/custom.svg"
+            mv output/custom.svg /tmp/breakout-images/breakout.svg
+          elif [ -f output/dark.svg ]; then
+            echo "Found output/dark.svg"
+            mv output/dark.svg /tmp/breakout-images/breakout-dark.svg
+          elif [ -f output/light.svg ]; then
+            echo "Found output/light.svg"
+            mv output/light.svg /tmp/breakout-images/breakout-light.svg
+          else
+            echo "Error: No generated Breakout SVG was found."
+            exit 1
+          fi
 
       - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Commit and push Breakout SVGs
+      - name: Commit and push Breakout SVG
         run: |
           git checkout --orphan github-breakout
           git rm -rf .
           mkdir images
           mv /tmp/breakout-images/* images/
           git add images
-          git commit -m "chore: update GitHub breakout SVGs"
+          git commit -m "chore: update GitHub breakout SVG"
           git push --force origin github-breakout
