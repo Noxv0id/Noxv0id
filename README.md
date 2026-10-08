@@ -1,6 +1,6 @@
-<div align="center">
-<img src="./assets/banner.jpg" alt="Noxv0id">
-</div>
+<p align="center">
+  <img src="./assets/banner.jpg" alt="Noxv0id" width="100%">
+</p>
 
 # Nox
 ## Backend Developer . Linux Enthusiasts . IT Support 
