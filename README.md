@@ -7,8 +7,7 @@
 > I build functional, production-ready APIs and tools that make life and work easier for me. I enjoy customizing Linux and have been distro-hopping lately, exploring different environments and finding what suits my style .
 >  I'm also an IT support specialist because I genuinely enjoy troubleshooting ("Not Windows"), fixing , and building systems. Outside all of that, I make art and explore whatever else catches my interest.
 
-## Connect
-[![x](https://www.readmecodegen.com/api/social-icon?name=x&size=56&background=gradient-dark&theme=dark&link=https%3A%2F%2Fx.com%2FC3ntury_g33k)](https://x.com/C3ntury_g33k)  [![gmail](https://www.readmecodegen.com/api/social-icon?name=gmail&size=56&bg=gradient-dark&theme=dark&link=mailto%3Adericw076%40gmail.com&color=%23ffffff)](mailto:dericw076@gmail.com)  [![reddit](https://www.readmecodegen.com/api/social-icon?name=reddit&size=56&background=gradient-dark&theme=dark&link=https%3A%2F%2Freddit.com%2Fuser%2FAccomplished-Cry6913%2F)](https://reddit.com/user/Accomplished-Cry6913/)  [![discord](https://www.readmecodegen.com/api/social-icon?name=discord&size=56&background=gradient-dark&theme=dark&link=https%3A%2F%2Fdiscord.com%2Fusers%2F1055529912208986223)](https://discord.com/users/1055529912208986223) 
+<h2 align="center">Connect</h2>
 
 <p align="center">
   <a href="https://x.com/C3ntury_g33k"><img src="https://www.readmecodegen.com/api/social-icon?name=x&size=56&background=gradient-dark&theme=dark&link=https%3A%2F%2Fx.com%2FC3ntury_g33k" alt="x"></a>
