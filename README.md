@@ -25,7 +25,6 @@
 
 ## Activity Graph
 ---
-
 [![GitHub Activity Graph](https://github-readme-activity-graph-nox404.vercel.app/graph?username=Noxv0id&bg_color=141414&color=A0A0A0&line=FFFFFF&point=FFFFFF&area_color=303030&area=true&border_color=303030&radius=14&height=300&grid=true&hide_title=true)](https://github.com/Noxv0id)
 
 ## Commit Activity
