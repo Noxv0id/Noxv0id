@@ -20,10 +20,25 @@ jobs:
       - name: Generate Breakout SVG
         uses: cyprieng/github-breakout@v1
         with:
-          github_username: ${{ github.repository_owner }}
+          github_username: Noxv0id
           paddle_color: "#FFFFFF"
           ball_color: "#FFFFFF"
           bricks_colors: "#303030,#505050,#707070,#A0A0A0,#FFFFFF"
+
+      - name: Inspect generated files
+        run: |
+          echo "=== Repository ==="
+          ls -la
+
+          echo "=== Output directory ==="
+          if [ -d output ]; then
+            find output -maxdepth 2 -type f -print
+          else
+            echo "output/ does not exist"
+          fi
+
+          echo "=== All SVG files ==="
+          find . -type f -name "*.svg" -print
 
       - name: Move generated SVGs
         run: |
@@ -31,7 +46,7 @@ jobs:
           mv output/light.svg /tmp/breakout-images/breakout-light.svg
           mv output/dark.svg /tmp/breakout-images/breakout-dark.svg
 
-      - name: Configure Git
+      - name: Configure git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -43,5 +58,5 @@ jobs:
           mkdir images
           mv /tmp/breakout-images/* images/
           git add images
-          git commit -m "chore: update GitHub breakout SVGs" || echo "No changes to commit"
+          git commit -m "chore: update GitHub breakout SVGs"
           git push --force origin github-breakout
