@@ -5,7 +5,7 @@
 # Nox
 <h2 align="center">Backend Developer . Linux Enthusiast . IT Support</h2>
 
-<img align="right" src="./assets/souls.png" alt="About Me" width= "190">
+<img align="right" src="./assets/souls.png" alt="About Me" width= "170">
     
 <p dir="auto">
   <strong>Hey, Deric here</strong>—i'm pretty much a software engineering major focused on IT support and backend development. I build functional, production-ready APIs and tools that make life and work easier for me.
