@@ -5,10 +5,19 @@
 # Nox
 <h2 align="center">Backend Developer . Linux Enthusiasts . IT Support</h2>
 
-<img align="right" src="./assets/souls.png" alt="About Me" width= "240">
+<img align="right" src="./assets/souls.png" alt="About Me" width= "220">
     
-> I build functional, production-ready APIs and tools that make life and work easier for me. I enjoy customizing Linux and have been distro-hopping lately, exploring different environments and finding what suits my style .
->  I'm also an IT support specialist because I genuinely enjoy troubleshooting ("Not Windows"), fixing , and building systems. Outside all of that, I make art and explore whatever else catches my interest.
+<p dir="auto">
+  <strong>Hey, Deric here</strong>—a software engineering major focused on IT support and backend development. I build functional, production-ready APIs and tools that make life and work easier for me.
+<p>
+
+<p dir="auto">
+  I kinda enjoy customizing Linux and have been distro-hopping lately, exploring different environments and finding what suits my style .
+</p>
+
+<p dir="auto">
+  I'm also an IT support specialist because I genuinely enjoy troubleshooting ("Not Windows"), fixing , and building systems. Outside all of that, I make art and explore whatever else catches my interest.
+</p>
 
 <h2 align="center">Connect</h2>
 
