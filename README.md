@@ -12,10 +12,12 @@
 </p>
 
 <p dir="auto">
+  <br>
   I kinda enjoy customizing Linux and have been distro-hopping lately, exploring different environments and finding what suits my style.
 </p>
 
 <p dir="auto">
+  <br>
   I'm also an IT support specialist because I genuinely enjoy troubleshooting 
   <s>Windows</s> systems, fixing , and building systems. Outside all of that, I make art and explore whatever else catches my interest.
 </p>
