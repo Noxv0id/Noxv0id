@@ -2,13 +2,12 @@
   <img src="./assets/banner.jpg" alt="Noxv0id" width="100%">
 </p>
 
-# Nox
 <h2 align="center">Backend Developer . Linux Enthusiast . IT Support</h2>
 
 <img align="right" src="./assets/Sheesh.png" alt="About Me" width="260">
     
 <p dir="auto">
-  <strong>Hey, Deric here</strong>—i'm pretty much a software engineering major focused on IT support and backend development. I build functional, production-ready APIs and tools that make life and work easier for me.
+  <strong>Hey, Nox here</strong>—i'm pretty much a software engineering major focused on IT support and backend development. I build functional, production-ready APIs and tools that make life and work easier for me.
 </p>
 
 <p dir="auto">
